@@ -12,6 +12,7 @@ const styles = {
 const App = () => (
   <div css={styles.container({ hasBackground: true })}>
     <div tw="flex flex-col justify-center h-full gap-y-5">
+      <button tw="btn btn-outline loading">adfa</button>
       <Button variant="primary">Submit</Button>
       <Button variant="secondary">Cancel</Button>
       <Button isSmall>Close</Button>
